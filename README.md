@@ -1,25 +1,31 @@
-🗂️ Step 1: Create requirements.txt
-📄 requirements.txt
+# MLflow Experiment Project
 
-numpy  
-pandas  
-scikit-learn  
-matplotlib  
-seaborn  
-mlflow  
-joblib  
+This project shows how machine learning experiments can be tracked using MLflow.
+It logs model metrics, parameters, and saved models.
 
- Step 2: Add to README.md
-📦 Install Required Python Libraries
+## Tools Used
+- Python
+- MLflow
+- Scikit-learn
+- Pandas
 
-# Install all required dependencies
-pip install -r requirements.txt
+## How to Run
 
-# Step 1: Create conda environment
-conda create -p venv python=3.11
+1. Install requirements
+   pip install -r requirements.txt
 
-# Step 2: Activate environment
-conda activate ./venv
+2. Open the notebook
+   project.ipynb
 
-# Step 3: Install dependencies
-pip install -r requirements.txt
+3. Run all cells
+
+4. Start MLflow
+   mlflow ui
+
+## What I Learned
+- Tracking experiments
+- Comparing models
+- Saving ML models
+
+## Author
+Akshat Shah
