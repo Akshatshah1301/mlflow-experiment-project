@@ -1,7 +1,14 @@
 # MLflow Experiment Project
 
-This project shows how machine learning experiments can be tracked using MLflow.
-It logs model metrics, parameters, and saved models.
+This project demonstrates how MLflow can be used to track and compare machine learning experiments.
+
+The goal is to understand how experiment tracking helps data teams:
+- compare multiple model runs
+- store metrics and parameters
+- reproduce results reliably
+- avoid manual experiment tracking
+
+This mirrors how ML models are evaluated in real-world data science workflows.
 
 ## Tools Used
 - Python
